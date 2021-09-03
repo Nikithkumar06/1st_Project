@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	/* background-image: url("css\—Pngtree.jpg"); */
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+	background-color: #4d4d4d;
+	background-position: center;
+    background-image: url('images/671500.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1367px 1000px;
+  }
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+.register {
+	background-color: #2d85b0;
+	width: 600px;
+	align-content: center;
+	margin: 0px 0px 0px 390px;
+	font-size: 20px;
+	border-radius: 10px;
+	text-transform: UPPERCASE;
+}
+.head {
+	padding-bottom: 40px;
+	text-align: center;
+}
+#register {
+	margin-left: 100px;
+	padding: 30px 10px 30px 25px;
+	/* position: fixed; */
+}
+label{
+	color: white;
+	font-family: ;
+	font-size: 18px;
+	font-style: italic;
+}
+span {
+	color: white;
+}
+
+input[type=text], input[type=password], input[type=email]{
+  width: 300px;
+  padding: 9px 15px 9px 15px;
+  margin: 9px 0px 9px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=phonenumber] {
+  width: 236px;
+  padding: 9px 15px 9px 15px;
+  margin: 9px 0px 9px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#ph {
+	width: 60px;
+	padding: 8px 2px 8px 2px;
+	margin: 9px 0px 9px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+select {
+	padding: 9px 15px 9px 15px;
+	margin: 9px 0px 9px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: white;
+  color: white;
+  padding: 8px 15px 8px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#sub {
+	width: 20%;
+	background-color: white;
+	
+	padding: 8px 15px 8px 15px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#sub:hover {
+  background-color: #45a049;
+}
+.signin {
+	font-size: medium;
+	padding-top: 15px;
+}
